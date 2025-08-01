@@ -9,10 +9,10 @@ categories: research-notes
 
 CosyVoice 2—great improvement in streaming speech synthesis in terms of naturalness and efficiency! 🎤
 
-* Leveraging LLM advancements for smarter, more natural speech generation.
-* Optimized with finite scalar quantization and a chunk-aware causal flow matching model, ensuring ultra-low latency in streaming mode.
-* Multilingual support with fine-grained control over speech characteristics, addressed to diverse needs.
-* Near human-parity naturalness, making generated speech feel more lifelike compared to previous advancements.
+- Leveraging LLM advancements for smarter, more natural speech generation.
+- Optimized with finite scalar quantization and a chunk-aware causal flow matching model, ensuring ultra-low latency in streaming mode.
+- Multilingual support with fine-grained control over speech characteristics, addressed to diverse needs.
+- Near human-parity naturalness, making generated speech feel more lifelike compared to previous advancements.
 
 Thanks to the authors @ Alibaba Group for providing a detailed architecture, training data, and experimental results showcasing the proposed model's performance. They also welcome open discussions on limitations and future directions for even greater advancements.🌟
 

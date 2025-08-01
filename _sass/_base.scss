@@ -481,7 +481,9 @@ ul.task-list input[type="checkbox"] {
       max-width: 120px;
       object-fit: contain;
       filter: grayscale(100%);
-      transition: filter 0.3s ease, transform 0.3s ease;
+      transition:
+        filter 0.3s ease,
+        transform 0.3s ease;
       display: block;
       margin: 0 auto; // Center the image within the container
 
@@ -520,22 +522,22 @@ ul.task-list input[type="checkbox"] {
 // Contact Information
 .contact-info {
   margin: 1.5rem 0;
-  
+
   .contact-item {
     margin-bottom: 0.5rem;
     line-height: 1;
-    
+
     strong {
       color: var(--global-theme-color);
       font-weight: 300;
       min-width: 130px;
       display: inline-block;
     }
-    
+
     a {
       color: var(--global-text-color);
       text-decoration: none;
-      
+
       &:hover {
         color: var(--global-theme-color);
         text-decoration: underline;
@@ -548,43 +550,45 @@ ul.task-list input[type="checkbox"] {
 .contact-page {
   max-width: 800px;
   margin: 0 auto;
-  
-  h2, h3 {
+
+  h2,
+  h3 {
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
-  
+
   p {
     margin-bottom: 1rem;
     line-height: 1.6;
   }
-  
+
   ul {
     margin-bottom: 1rem;
-    
+
     li {
       margin-bottom: 0.5rem;
     }
   }
-  
+
   .contact-form {
     margin-top: 2rem;
     padding: 2rem;
     background-color: var(--global-bg-color);
     border: 1px solid var(--global-divider-color);
     border-radius: 8px;
-    
+
     .form-group {
       margin-bottom: 1.5rem;
-      
+
       label {
         display: block;
         margin-bottom: 0.5rem;
         font-weight: 600;
         color: var(--global-text-color);
       }
-      
-      input, textarea {
+
+      input,
+      textarea {
         width: 100%;
         padding: 0.75rem;
         border: 1px solid var(--global-divider-color);
@@ -593,20 +597,20 @@ ul.task-list input[type="checkbox"] {
         font-family: inherit;
         background-color: var(--global-bg-color);
         color: var(--global-text-color);
-        
+
         &:focus {
           outline: none;
           border-color: var(--global-theme-color);
           box-shadow: 0 0 0 2px rgba(var(--global-theme-color-rgb), 0.2);
         }
       }
-      
+
       textarea {
         resize: vertical;
         min-height: 120px;
       }
     }
-    
+
     .btn {
       background-color: var(--global-theme-color);
       color: white;
@@ -617,12 +621,12 @@ ul.task-list input[type="checkbox"] {
       font-weight: 600;
       cursor: pointer;
       transition: background-color 0.3s ease;
-      
+
       &:hover {
         background-color: var(--global-theme-color);
         opacity: 0.9;
       }
-      
+
       &:focus {
         outline: none;
         box-shadow: 0 0 0 2px rgba(var(--global-theme-color-rgb), 0.3);

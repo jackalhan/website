@@ -1,34 +1,43 @@
 {%- comment -%}
-Company Logos Section
-Displays logos of companies where the user has worked
-Configuration in _config.yml under company_logos
+  Company Logos Section
+  Displays logos of companies where the user has worked
+  Configuration in _config.yml under company_logos
 {%- endcomment -%}
 
 {%- if site.company_logos and site.company_logos.size > 0 -%}
-<div class="company-logos" style="text-align: center; margin: 1rem 0;">
-  <div class="company-logos-container" style="text-align: center;">
-    {%- for company in site.company_logos -%}
-      {%- assign logo_height = company.height | default: 60 -%}
-      {%- assign logo_max_width = company.max_width | default: 120 -%}
-      <div class="company-logo-item" style="display: inline-block; margin: 1rem 1.5rem; text-align: center; vertical-align: middle;">
-        {%- if company.url -%}
-          <a href="{{ company.url }}" target="_blank" rel="noopener noreferrer" title="{{ company.name }}" aria-label="{{ company.name }}" style="text-decoration: none;">
-        {%- endif -%}
-        <img src="{{ company.logo | prepend: 'assets/img/company-logos/' | relative_url }}" 
-             alt="{{ company.name }} logo" 
-             class="company-logo-img"
-             style="height: {{ logo_height }}px; width: auto; max-width: {{ logo_max_width }}px; object-fit: contain; filter: grayscale(0%); transition: filter 0.3s ease; display: block; margin: 0 auto;"
-             onmouseover="this.style.filter='grayscale(100%)'" 
-             onmouseout="this.style.filter='grayscale(0%)'"
-             loading="lazy">
-        {%- if company.url -%}
-          </a>
-        {%- endif -%}
-        {%- if company.show_name -%}
-          <div class="company-name" style="margin-top: 0.5rem; font-size: 0.8rem; text-align: center;">{{ company.name }}</div>
-        {%- endif -%}
-      </div>
-    {%- endfor -%}
+  <div class="company-logos" style="text-align: center; margin: 1rem 0;">
+    <div class="company-logos-container" style="text-align: center;">
+      {%- for company in site.company_logos -%}
+        {%- assign logo_height = company.height | default: 60 -%}
+        {%- assign logo_max_width = company.max_width | default: 120 -%}
+        <div class="company-logo-item" style="display: inline-block; margin: 1rem 1.5rem; text-align: center; vertical-align: middle;">
+          {%- if company.url -%}
+            <a
+              href="{{ company.url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="{{ company.name }}"
+              aria-label="{{ company.name }}"
+              style="text-decoration: none;"
+            >
+          {%- endif -%}
+          <img
+            src="{{ company.logo | prepend: 'assets/img/company-logos/' | relative_url }}"
+            alt="{{ company.name }} logo"
+            class="company-logo-img"
+            style="height: {{ logo_height }}px; width: auto; max-width: {{ logo_max_width }}px; object-fit: contain; filter: grayscale(0%); transition: filter 0.3s ease; display: block; margin: 0 auto;"
+            onmouseover="this.style.filter='grayscale(100%)'"
+            onmouseout="this.style.filter='grayscale(0%)'"
+            loading="lazy"
+          >
+          {%- if company.url -%}
+            </a>
+          {%- endif -%}
+          {%- if company.show_name -%}
+            <div class="company-name" style="margin-top: 0.5rem; font-size: 0.8rem; text-align: center;">{{ company.name }}</div>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
   </div>
-</div>
 {%- endif -%}

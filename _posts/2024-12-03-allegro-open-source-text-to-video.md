@@ -10,6 +10,7 @@ categories: research-notes
 🎥✨ Allegro—a groundbreaking, open-source text-to-video generation model that’s setting new standards in quality and temporal consistency!
 
 Allegro stands out:
+
 - Built with an innovative architecture combining **VideoVAE** (Video Variational Autoencoder) and **VideoDiT** (Video Diffusion Transformer).
 - Powered by a meticulously curated dataset of **106 million images and 48 million videos**—next-level training for next-level results!
 - Outperforms existing open-source and even many commercial models across key metrics, backed by user studies and rigorous evaluations.

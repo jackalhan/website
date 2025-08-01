@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Tolgahan
-middle_name: 
+middle_name:
 last_name: Cakaloglu
 contact_note: >
   Email is the fastest ways to reach me. Checkout the <a href="/contact">Contact page</a> for more details.
@@ -17,37 +17,37 @@ company_logos:
     logo: "walmart_logo.svg"
     url: "https://tech.walmart.com/content/walmart-global-tech/en_us.html"
     show_name: false
-    height: 100  # Custom height in pixels (optional, defaults to 60px)
-    max_width: 150  # Custom max width in pixels (optional, defaults to 120px)
+    height: 100 # Custom height in pixels (optional, defaults to 60px)
+    max_width: 150 # Custom max width in pixels (optional, defaults to 120px)
   - name: "Google"
     logo: "google_logo.svg"
     url: "https://research.google/"
     show_name: false
-    height: 80  # Smaller height for Google logo
+    height: 80 # Smaller height for Google logo
     max_width: 110
   - name: "Carnegie Mellon University"
     logo: "cmu_logo.png"
     url: "https://www.cmu.edu/"
     show_name: false
-    height: 80  # Larger height for university logo
+    height: 80 # Larger height for university logo
     max_width: 135
   - name: "University of Arkansas"
     logo: "university_of_arkansas_logo.jpg"
     url: "https://www.uark.edu/"
     show_name: false
-    height: 60  # Larger height for university logo
+    height: 60 # Larger height for university logo
     max_width: 135
   - name: "Arkansas Hearth Hospital"
     logo: "arkansas_hospital_logo.png"
     url: "https://www.arheart.com/"
     show_name: false
-    height: 140  # Larger height for university logo
+    height: 140 # Larger height for university logo
     max_width: 160
   - name: "Turkish Airlines"
     logo: "turkish_airlines_logo.png"
     url: "https://turkishtechnology.com/about-us.html"
     show_name: false
-    height: 80  # Larger height for university logo
+    height: 80 # Larger height for university logo
     max_width: 120
 # Contact information for about page
 contact_info:
@@ -75,7 +75,7 @@ contact_info:
   - label: "Location"
     value: "Dallas, TX, United States"
     url: ""
-  
+
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 
 footer_text: >

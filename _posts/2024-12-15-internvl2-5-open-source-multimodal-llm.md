@@ -10,9 +10,10 @@ categories: research-notes
 ✨ Another update: InternVL 2.5—an open-source multimodal large language model (MLLM) that’s raising the bar for LMMM/MLLM AI capabilities!
 
 Here’s what makes InternVL 2.5 stand out:
-* **Three-stage training pipeline** for efficiency and scalability
-* **Smart data filtering** to tackle issues like repetitive outputs
-* **Competitive performance** across benchmarks in diverse multimodal tasks:
+
+- **Three-stage training pipeline** for efficiency and scalability
+- **Smart data filtering** to tackle issues like repetitive outputs
+- **Competitive performance** across benchmarks in diverse multimodal tasks:
   - Reasoning
   - Mathematics
   - OCR

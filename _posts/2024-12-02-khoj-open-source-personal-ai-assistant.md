@@ -17,7 +17,7 @@ Built with flexibility and innovation in mind, Khoj empowers you to:
 
 Whether you’re a developer looking to build something unique or just someone who loves experimenting with cutting-edge tech, this might be useful. 💡✨
 
-It’s open-source and powered by a vibrant community of contributors. 🌍👩‍💻👨‍💻 
+It’s open-source and powered by a vibrant community of contributors. 🌍👩‍💻👨‍💻
 
 [Github](https://lnkd.in/gvTHtib9)
 

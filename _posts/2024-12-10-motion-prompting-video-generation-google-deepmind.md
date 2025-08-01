@@ -12,10 +12,12 @@ categories: research-notes
 This approach leverages spatio-temporal motion trajectories as conditioning signals, giving users flexible control over video content like object and camera movements. 🎮🎥
 
 Here’s how it works:
+
 - **ControlNet adapter** trained on a pre-trained video diffusion model powers this flexibility.
 - **Motion prompt expansion** translates high-level user requests into detailed motion trajectories, making complex tasks feel effortless.
 
 The results?
+
 - Diverse applications with satisfactory outcomes
 - Emergent behaviors like realistic physics simulations 🌌⚙️
 

@@ -46,7 +46,7 @@ layout: default
       <div class="contact-info">
         {% for item in site.contact_info %}
           <div class="contact-item">
-            <strong>{{ item.label }}:</strong> 
+            <strong>{{ item.label }}:</strong>
             {% if item.url %}
               <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.value }}</a>
             {% else %}
@@ -56,7 +56,7 @@ layout: default
         {% endfor %}
       </div>
     {% endif %}
-    
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
@@ -90,8 +90,8 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
-    <br>
-      <h2>connect with me on these platforms:</h2>  
+      <br>
+      <h2>connect with me on these platforms:</h2>
       <br>
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>

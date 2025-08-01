@@ -18,9 +18,10 @@ What they found is quite revealing:
 2️⃣ **The "Effort Paradox"**: Here's a shocker – when problems became too complex, the models actually reduced their "reasoning effort" (spent fewer tokens thinking), despite having ample token budget. It's like they give up rather than dig deeper.
 
 3️⃣ **Three Distinct Performance Regimes Emerged:**
-- *Low Complexity*: Standard LLMs often performed better and more efficiently. The LRMs tended to "overthink."
-- *Medium Complexity*: This is where LRMs showed a clear advantage, their extended "thinking" (e.g., Chain-of-Thought) paid off.
-- *High Complexity*: Both model types ultimately failed. The extra "thinking" in LRMs only delayed the inevitable collapse.
+
+- _Low Complexity_: Standard LLMs often performed better and more efficiently. The LRMs tended to "overthink."
+- _Medium Complexity_: This is where LRMs showed a clear advantage, their extended "thinking" (e.g., Chain-of-Thought) paid off.
+- _High Complexity_: Both model types ultimately failed. The extra "thinking" in LRMs only delayed the inevitable collapse.
 
 4️⃣ **Trouble with Explicit Instructions**: Even when provided with the exact algorithm to solve a puzzle, the models still hit the same performance wall. This suggests they aren't truly executing logical steps but are still fundamentally predicting sequences.
 

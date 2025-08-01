@@ -13,6 +13,7 @@ It’s always a pleasure to see an idea grow from a spark of inspiration into so
 If you’re interested in the details of this patent or want to discuss the approach and its applications, feel free to reach out. I always enjoy connecting with others who are passionate about innovation in AI and topic modeling.
 
 ---
+
 Karthik and I are both committed to driving innovation at <a href="https://www.walmartglobaltech.com/">Walmart Global Tech</a> and beyond.
 
 #### Highlights
@@ -25,6 +26,7 @@ Karthik and I are both committed to driving innovation at <a href="https://www.w
 </ul>
 
 ---
+
 > “It’s always rewarding to see ideas take shape and become something tangible.”
 >
 > — Tolgahan Cakaloglu

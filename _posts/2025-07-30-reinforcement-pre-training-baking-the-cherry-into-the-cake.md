@@ -16,7 +16,7 @@ That's the core idea behind their new method, Reinforcement Pre-Training (RPT). 
 I like the motivation of the reward system. It's incredibly simple and scalable:
 
 1. The model "thinks" about the next token
-2. It makes its prediction  
+2. It makes its prediction
 3. If it's correct, it gets a reward. If not, it doesn't
 
 This simple loop turns the vast, unannotated text on the internet into a massive, free dataset for reinforcement learning, no human labeling required.
