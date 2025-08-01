@@ -10,9 +10,9 @@ This directory contains company logos that will be displayed in the "experience"
 ```yaml
 company_logos:
   - name: "Company Name"
-    logo: "company-logo-file.svg"  # or .png, .jpg
-    url: "https://company-website.com"  # optional
-    show_name: false  # set to true to show company name below logo
+    logo: "company-logo-file.svg" # or .png, .jpg
+    url: "https://company-website.com" # optional
+    show_name: false # set to true to show company name below logo
 ```
 
 ## Image Guidelines
@@ -24,6 +24,7 @@ company_logos:
 - The logos will be displayed in grayscale by default and show color on hover
 
 ## Current logos:
+
 - walmart-logo.svg (placeholder)
 - google-logo.svg (placeholder)
 - uark-logo.svg (placeholder)
