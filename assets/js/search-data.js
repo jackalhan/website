@@ -23,61 +23,352 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+        },{id: "nav-contact",
+          title: "contact",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/contact/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-reinforcement-pre-training-baking-the-cherry-into-the-cake",
         
-          title: "a post with plotly.js",
+          title: "Reinforcement pre-training - baking the cherry into the cake",
         
-        description: "this is what included plotly.js code could look like",
+        description: "exploring microsoft research&#39;s revolutionary approach to training language models with reinforcement learning from the ground up",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/plotly/";
+            window.location.href = "/blog/2025/reinforcement-pre-training-baking-the-cherry-into-the-cake/";
           
         },
-      },{id: "post-a-post-with-image-galleries",
+      },{id: "post-group-sequence-policy-optimization-gspo-a-smarter-approach-to-rl-for-llms-and-moe-models",
         
-          title: "a post with image galleries",
+          title: "Group Sequence Policy Optimization (GSPO); A Smarter Approach to RL for LLMs and...",
         
-        description: "this is what included image galleries could look like",
+        description: "Review and notes on the GSPO paper from the Qwen team at Alibaba — improving reinforcement learning stability in LLMs, especially for Mixture-of-Experts architectures.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/photo-gallery/";
+            window.location.href = "/blog/2025/group-sequence-policy-optimization-gspo.md/";
+          
+        },
+      },{id: "post-the-illusion-of-thinking-apple-39-s-latest-paper-exposes-llm-quot-reasoning-quot-limits",
+        
+          title: "The Illusion of Thinking; Apple&#39;s Latest Paper Exposes LLM &quot;Reasoning&quot; Limits",
+        
+        description: "Takeaways from Apple&#39;s &quot;The Illusion of Thinking&quot; paper, which challenges what we call &quot;AI reasoning&quot; and highlights critical limitations in current large language and reasoning models.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/the-illusion-of-thinking-apple-paper/";
+          
+        },
+      },{id: "post-alphaevolve-google-deepmind-s-ai-agent-discovers-better-matrix-multiplication-algorithms",
+        
+          title: "AlphaEvolve ; Google DeepMind’s AI Agent Discovers Better Matrix Multiplication Algorithms 🤖🧮",
+        
+        description: "Google DeepMind introduces AlphaEvolve, a Gemini-powered autonomous coding agent that improves on Strassen&#39;s algorithm for matrix multiplication—raising new questions about practical AI-driven breakthroughs in foundational algorithms.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/alphaevolve-autonomous-coding-agent/";
+          
+        },
+      },{id: "post-llama-4-meta-scales-moe-online-rl-and-multimodal-innovation",
+        
+          title: "Llama 4 ; Meta Scales MoE, Online RL, and Multimodal Innovation 🦙💡",
+        
+        description: "Impressions and highlights from Meta’s Llama 4 launch—scaling MoE, continuous online RL, multimodal fusion, and more.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/llama4-moe-online-rl-multimodal/";
+          
+        },
+      },{id: "post-qwen2-5-omni-alibaba-s-multimodal-model-elevates-real-time-ai-️",
+        
+          title: "Qwen2.5-Omni ; Alibaba’s Multimodal Model Elevates Real-Time AI 🧠🎤🖼️",
+        
+        description: "Qwen2.5-Omni from Alibaba introduces a new era in multimodal, real-time AI with state-of-the-art performance across text, image, audio, and video.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/qwen2-5-omni-multimodal-ai/";
+          
+        },
+      },{id: "post-cosmos-transfer1-nvidia-s-model-for-next-gen-conditional-world-generation",
+        
+          title: "Cosmos-Transfer1 ; NVIDIA’s Model for Next-Gen Conditional World Generation 🤖✨",
+        
+        description: "Cosmos-Transfer1 from NVIDIA redefines AI-driven simulations with advanced conditional world generation for robotics and autonomous vehicles.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/cosmos-transfer1-nvidia-conditional-world-generation/";
+          
+        },
+      },{id: "post-native-sparse-attention-hardware-aligned-breakthrough-for-long-context-llms",
+        
+          title: "Native Sparse Attention ; Hardware-Aligned Breakthrough for Long-Context LLMs 🤖✨",
+        
+        description: "DeepSeek’s Native Sparse Attention sets a new bar for efficient, hardware-optimized long-context modeling in LLMs—combining dynamic sparsity with end-to-end trainability.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/native-sparse-attention-hardware-aligned/";
+          
+        },
+      },{id: "post-alphageometry2-ai-reaching-gold-medal-level-in-imo-geometry",
+        
+          title: "🏅📐 AlphaGeometry2 ; AI Reaching Gold Medal Level in IMO Geometry!",
+        
+        description: "AlphaGeometry2 by Google DeepMind sets a new benchmark in mathematical reasoning—surpassing IMO gold medalists and showcasing next-level symbolic intelligence.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/alphageometry2-gold-medal-imo-math-ai/";
+          
+        },
+      },{id: "post-evalplanner-meta-s-transparent-amp-accurate-llm-evaluation-approach",
+        
+          title: "EvalPlanner ; Meta’s Transparent &amp; Accurate LLM Evaluation Approach 🌟",
+        
+        description: "Meta’s EvalPlanner trains LLMs to evaluate each other with synthetic data, planning, and transparent reasoning—setting new benchmarks for LLM evaluation accuracy.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/evalplanner-meta-llm-evaluation/";
+          
+        },
+      },{id: "post-sft-vs-rl-generalization-power-in-foundation-models",
+        
+          title: "SFT vs RL ; Generalization Power in Foundation Models 🚀🤖",
+        
+        description: "Google DeepMind’s research reveals how Supervised Fine-Tuning and Reinforcement Learning together shape generalization in foundation models—balancing stability and adaptability.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/sft-vs-rl-generalization-foundation-models/";
+          
+        },
+      },{id: "post-open-deep-research-hugging-face-s-transparent-alternative-to-openai-s-tool",
+        
+          title: "Open Deep Research ; Hugging Face’s Transparent Alternative to OpenAI’s Tool 💥",
+        
+        description: "Open Deep Research from Hugging Face is a transparent, open-source answer to OpenAI’s deep research agent—unlocking autonomous web research for all.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/open-deep-research-huggingface-vs-openai/";
+          
+        },
+      },{id: "post-janus-pro-deepseek-s-next-gen-multimodal-model-for-vision-amp-text-to-image-️",
+        
+          title: "Janus-Pro ; DeepSeek’s Next-Gen Multimodal Model for Vision &amp; Text-to-Image 🖼️🤖",
+        
+        description: "Janus-Pro from DeepSeek AI sets new standards in multimodal understanding and text-to-image generation, with open access for the research community.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/janus-pro-deepseek-multimodal-model/";
+          
+        },
+      },{id: "post-memory-layers-in-large-language-models-boosting-llm-performance",
+        
+          title: "Memory Layers in Large Language Models ; Boosting LLM Performance 🧠",
+        
+        description: "Meta’s research on memory layers in LLMs shows how trainable key-value lookups dramatically improve factual accuracy and efficiency.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/memory-layers-in-llms-meta-research/";
+          
+        },
+      },{id: "post-large-concept-models-advancing-abstract-reasoning-in-language-modeling",
+        
+          title: "Large Concept Models ; Advancing Abstract Reasoning in Language Modeling 🤖💡",
+        
+        description: "Meta’s Large Concept Models (LCMs) introduce semantic-level language modeling and diffusion-based generation for improved reasoning and multilingual versatility.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/large-concept-models-lcm-meta/";
+          
+        },
+      },{id: "post-cosyvoice-2-streaming-speech-synthesis-with-human-like-naturalness",
+        
+          title: "CosyVoice 2 ; Streaming Speech Synthesis with Human-Like Naturalness 🎤",
+        
+        description: "CosyVoice 2 from Alibaba Group advances streaming speech synthesis with LLM-powered, low-latency, multilingual, and near human-parity speech generation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/cosyvoice2-streaming-speech-synthesis-alibaba/";
+          
+        },
+      },{id: "post-deepseek-v3-671b-parameter-moe-llm-setting-new-ai-benchmarks",
+        
+          title: "DeepSeek-V3 ; 671B-Parameter MoE LLM Setting New AI Benchmarks 🌟🤖",
+        
+        description: "DeepSeek-V3 is a 671B Mixture-of-Experts LLM introducing new architectural and training strategies—excelling at code, math, and beyond.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/deepseek-v3-671b-moe-llm/";
+          
+        },
+      },{id: "post-byte-latent-transformer-meta-s-tokenizer-free-llm-for-raw-byte-understanding",
+        
+          title: "Byte Latent Transformer ; Meta’s Tokenizer-Free LLM for Raw Byte Understanding 🔥",
+        
+        description: "Meta’s BLT drops tokenization for byte-level processing, offering efficient and robust language modeling across complex, noisy data.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/byte-latent-transformer-blt-meta/";
+          
+        },
+      },{id: "post-alignment-faking-can-llms-fake-alignment-with-human-values",
+        
+          title: "Alignment Faking ; Can LLMs Fake Alignment with Human Values? 🤔",
+        
+        description: "Anthropic’s research investigates how LLMs may appear aligned while hiding true preferences—raising new questions for AI alignment and responsible AI.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/alignment-faking-llms-anthropic/";
+          
+        },
+      },{id: "post-internvl-2-5-open-source-multimodal-llm-raising-the-bar",
+        
+          title: "InternVL 2.5 ; Open-Source Multimodal LLM Raising the Bar ✨",
+        
+        description: "InternVL 2.5 delivers open-source multimodal LLM performance across reasoning, math, OCR, video, and more—with a scalable three-stage training pipeline.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/internvl2-5-open-source-multimodal-llm/";
+          
+        },
+      },{id: "post-motion-prompting-breakthrough-in-video-generation-from-google-deepmind",
+        
+          title: "Motion Prompting ; Breakthrough in Video Generation from Google DeepMind ✨📹",
+        
+        description: "Motion Prompting enables controllable video generation via spatio-temporal trajectories, opening new possibilities in creative AI.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/motion-prompting-video-generation-google-deepmind/";
+          
+        },
+      },{id: "post-prompt-formatting-does-it-really-matter-for-gpt-models",
+        
+          title: "Prompt Formatting ; Does It Really Matter for GPT Models? ✨🤔",
+        
+        description: "New research shows prompt format can dramatically affect GPT performance, especially in smaller models, raising the bar for model-specific prompt engineering.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/prompt-formatting-impact-gpt-models/";
+          
+        },
+      },{id: "post-genie-2-google-deepmind-s-foundation-world-model-for-interactive-3d-ai",
+        
+          title: "Genie 2 ; Google DeepMind’s Foundation World Model for Interactive 3D AI 🌟🚀...",
+        
+        description: "Genie 2 from Google DeepMind generates interactive 3D worlds from single image prompts—unlocking scalable training for embodied AI.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/genie2-google-deepmind-interactive-3d/";
+          
+        },
+      },{id: "post-allegro-open-source-text-to-video-generation-redefining-quality",
+        
+          title: "Allegro ; Open-Source Text-to-Video Generation Redefining Quality 🎥✨",
+        
+        description: "Allegro by Rhymes.AI introduces a new era in open-source text-to-video generation, combining VideoVAE and VideoDiT for superior quality and consistency.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/allegro-open-source-text-to-video/";
+          
+        },
+      },{id: "post-khoj-open-source-self-hostable-personal-ai-assistant",
+        
+          title: "Khoj ; Open-Source Self-Hostable Personal AI Assistant 🚀🌟🤖",
+        
+        description: "Khoj offers open-source, self-hostable AI assistants for research, automation, semantic search, and custom agent creation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/khoj-open-source-personal-ai-assistant/";
+          
+        },
+      },{id: "post-docling-open-source-bridge-between-documents-and-generative-ai",
+        
+          title: "Docling ; Open-Source Bridge Between Documents and Generative AI 📄✨",
+        
+        description: "Docling streamlines document-to-AI workflows—convert, extract, and integrate files with open-source ease, powered by IBM.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/docling-open-source-document-ai/";
+          
+        },
+      },{id: "post-star-attention-supercharging-llm-inference-with-speed-amp-accuracy",
+        
+          title: "Star Attention ; Supercharging LLM Inference with Speed &amp; Accuracy 🚀✨",
+        
+        description: "Star Attention from NVIDIA delivers up to 11x faster inference for LLMs, balancing speed and accuracy with a two-phase attention mechanism.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/star-attention-nvidia-llm-inference/";
+          
+        },
+      },{id: "post-automated-red-teaming-openai-s-novel-methods-for-llm-attack-simulation",
+        
+          title: "Automated Red Teaming ; OpenAI’s Novel Methods for LLM Attack Simulation",
+        
+        description: "OpenAI introduces automated, RL-driven red teaming for LLMs, achieving greater attack diversity and effectiveness in prompt injection and jailbreak scenarios.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/automated-llm-red-teaming-openai/";
+          
+        },
+      },{id: "post-llms-txt-a-new-standard-for-llm-optimized-website-information",
+        
+          title: "/llms.txt ; A New Standard for LLM-Optimized Website Information",
+        
+        description: "Jeremy Howard proposes a Markdown-based /llms.txt file standard, enhancing LLMs’ ability to access and summarize website information.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/llms-txt-standard-for-websites/";
+          
+        },
+      },{id: "post-model-context-protocol-anthropic-s-standard-for-secure-scalable-ai-integration",
+        
+          title: "Model Context Protocol ; Anthropic’s Standard for Secure, Scalable AI Integration",
+        
+        description: "Anthropic open-sources the Model Context Protocol (MCP), enabling AI assistants to securely and efficiently access diverse data sources.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/model-context-protocol-mcp-anthropic/";
+          
+        },
+      },{id: "post-big-shifts-in-lm-pixtral-12b-amp-openai-s-strawberry-arrive",
+        
+          title: "Big Shifts in LM ; Pixtral 12B &amp; OpenAI’s Strawberry Arrive 🍓",
+        
+        description: "Mistral’s Pixtral 12B and OpenAI’s Strawberry are ushering in a new era of multimodal and reasoning-focused large models.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/pixtral12b-strawberry-multimodal-reasoning/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -91,226 +382,6 @@ ninja.data = [{
             window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
         
           title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -322,122 +393,27 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-reflections-from-the-eyes-off-data-conference-responsible-ai-in-focus",
+          title: 'Reflections from the Eyes-Off-Data Conference; Responsible AI in Focus',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
+            },},{id: "news-announcing-a-new-patent-mr-topics-selective-topic-modeling-for-documents",
+          title: 'Announcing a New Patent; MR-TOPICS – Selective Topic Modeling for Documents',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-speaking-at-ai-leaders-forum-2025-as-global-keynote-on-agentic-ai-in-sydney-au",
+          title: 'Speaking at AI Leaders Forum 2025 as Global Keynote on Agentic AI in...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
@@ -483,18 +459,18 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-bluesky',
-        title: 'Bluesky',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://bsky.app/profile/tolgahanai.bsky.social", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/tolgahan", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=OvgwYg0AAAAJ&hl", "_blank");
         },
       },{
         id: 'social-rss',
@@ -504,11 +480,18 @@ ninja.data = [{
           window.open("/feed.xml", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-x',
+        title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=OvgwYg0AAAAJ&hl", "_blank");
+          window.open("https://twitter.com/t_cakaloglu", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/tolgahanai.bsky.social", "_blank");
         },
       },{
       id: 'light-theme',
