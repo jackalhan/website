@@ -7,16 +7,82 @@ first_name: Tolgahan
 middle_name: 
 last_name: Cakaloglu
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Email is the fastest ways to reach me. Checkout the <a href="/contact">Contact page</a> for more details.
+
+# Company logos configuration - displays logos in the about page experience section
+# Add logo files to assets/img/company-logos/ directory
+# Supported formats: SVG (recommended), PNG, JPG
+company_logos:
+  - name: "Walmart"
+    logo: "walmart_logo.svg"
+    url: "https://tech.walmart.com/content/walmart-global-tech/en_us.html"
+    show_name: false
+    height: 100  # Custom height in pixels (optional, defaults to 60px)
+    max_width: 150  # Custom max width in pixels (optional, defaults to 120px)
+  - name: "Google"
+    logo: "google_logo.svg"
+    url: "https://research.google/"
+    show_name: false
+    height: 80  # Smaller height for Google logo
+    max_width: 110
+  - name: "Carnegie Mellon University"
+    logo: "cmu_logo.png"
+    url: "https://www.cmu.edu/"
+    show_name: false
+    height: 80  # Larger height for university logo
+    max_width: 135
+  - name: "University of Arkansas"
+    logo: "university_of_arkansas_logo.jpg"
+    url: "https://www.uark.edu/"
+    show_name: false
+    height: 60  # Larger height for university logo
+    max_width: 135
+  - name: "Arkansas Hearth Hospital"
+    logo: "arkansas_hospital_logo.png"
+    url: "https://www.arheart.com/"
+    show_name: false
+    height: 140  # Larger height for university logo
+    max_width: 160
+  - name: "Turkish Airlines"
+    logo: "turkish_airlines_logo.png"
+    url: "https://turkishtechnology.com/about-us.html"
+    show_name: false
+    height: 80  # Larger height for university logo
+    max_width: 120
+# Contact information for about page
+contact_info:
+  - label: "Current Position"
+    value: "Distinguished AI Scientist @ Walmart"
+    url: ""
+  # - label: "Former Position"
+  #   value: "Ex: Research Scientist @ Google"
+  #   url: ""
+  - label: "Google Scholar"
+    value: "Click here!"
+    url: "https://scholar.google.com/citations?user=OvgwYg0AAAAJ"
+  - label: "LinkedIn"
+    value: "@tolgahan"
+    url: "https://www.linkedin.com/in/tolgahan/"
+  - label: "Twitter"
+    value: "@t_cakaloglu"
+    url: "https://twitter.com/t_cakaloglu"
+  - label: "GitHub"
+    value: "github.com/jackalhan"
+    url: "https://github.com/jackalhan"
+  - label: "Email"
+    value: "firstname At lastname dot org"
+    url: ""
+  - label: "Location"
+    value: "Dallas, TX, United States"
+    url: ""
+  
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🤖 # ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://tolga-han.com #https://jackalhan.github.io/ai-folio # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -73,21 +139,21 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-Y5M815TF3Z # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: m_0TmxQKXCvPmPNS_PsqUK6B7ydl3wnshmeCSfdELp8 # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: State of AI- Models, Research & Innovation # blog_name will be displayed in your blog page
+blog_description: Latest advances in AI models, research, and industry innovation.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -255,16 +321,16 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["AI", "LLM", "MultimodalAI", "Innovation", "OpenSource", "MachineLearning", "Research"] # these tags will be displayed on the front page of your blog
+#display_categories: ["Research"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Cakaloglu]
+  first_name: [Tolgahan]
 
   style: apa
   locale: en

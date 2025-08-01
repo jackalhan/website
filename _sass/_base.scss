@@ -401,23 +401,23 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
 
     a {
       img {
-        width: 3.2rem;
-        height: 3.2rem;
+        width: 2rem;
+        height: 2rem;
         margin-bottom: 1rem;
       }
 
       svg {
-        width: 3.5rem;
-        height: 4rem;
+        width: 2.2rem;
+        height: 2.5rem;
         margin-bottom: 0.5rem;
 
         image {
-          width: 3.5rem;
-          height: 3.5rem;
+          width: 2.2rem;
+          height: 2.2rem;
         }
       }
 
@@ -438,6 +438,196 @@ ul.task-list input[type="checkbox"] {
 
   .contact-note {
     font-size: 0.8rem;
+  }
+}
+
+// Company Logos
+.company-logos {
+  text-align: center;
+  margin: 1rem 0;
+  width: 100%;
+
+  .company-logos-container {
+    display: block;
+    text-align: center; // Center all inline-block elements
+    line-height: 0; // Remove line-height to prevent spacing issues
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .company-logo-item {
+    display: inline-block !important; // Use inline-block for horizontal layout
+    vertical-align: top; // Align to top
+    text-align: center;
+    margin: 0.5rem 0.5rem; // Increased spacing: top/bottom 1rem, left/right 2rem
+    transition: transform 0.3s ease;
+    line-height: normal; // Restore normal line height for this element
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+
+    @media (max-width: 768px) {
+      margin: 0.8rem 1.5rem; // Slightly smaller spacing on tablets
+    }
+
+    @media (max-width: 480px) {
+      margin: 0.5rem 1rem; // Smaller spacing on mobile
+    }
+
+    .company-logo-img {
+      height: 60px;
+      width: auto;
+      max-width: 120px;
+      object-fit: contain;
+      filter: grayscale(100%);
+      transition: filter 0.3s ease, transform 0.3s ease;
+      display: block;
+      margin: 0 auto; // Center the image within the container
+
+      &:hover {
+        filter: grayscale(0%);
+      }
+
+      @media (max-width: 768px) {
+        height: 50px;
+        max-width: 100px;
+      }
+
+      @media (max-width: 480px) {
+        height: 40px;
+        max-width: 80px;
+      }
+    }
+
+    .company-name {
+      display: block;
+      margin-top: 0.5rem;
+      font-size: 0.8rem;
+      color: var(--global-text-color);
+      font-weight: 500;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      display: block;
+    }
+  }
+}
+
+// Contact Information
+.contact-info {
+  margin: 1.5rem 0;
+  
+  .contact-item {
+    margin-bottom: 0.5rem;
+    line-height: 1;
+    
+    strong {
+      color: var(--global-theme-color);
+      font-weight: 300;
+      min-width: 130px;
+      display: inline-block;
+    }
+    
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+      
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Contact Page
+.contact-page {
+  max-width: 800px;
+  margin: 0 auto;
+  
+  h2, h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  ul {
+    margin-bottom: 1rem;
+    
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+  
+  .contact-form {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    
+    .form-group {
+      margin-bottom: 1.5rem;
+      
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        color: var(--global-text-color);
+      }
+      
+      input, textarea {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid var(--global-divider-color);
+        border-radius: 4px;
+        font-size: 1rem;
+        font-family: inherit;
+        background-color: var(--global-bg-color);
+        color: var(--global-text-color);
+        
+        &:focus {
+          outline: none;
+          border-color: var(--global-theme-color);
+          box-shadow: 0 0 0 2px rgba(var(--global-theme-color-rgb), 0.2);
+        }
+      }
+      
+      textarea {
+        resize: vertical;
+        min-height: 120px;
+      }
+    }
+    
+    .btn {
+      background-color: var(--global-theme-color);
+      color: white;
+      border: none;
+      padding: 0.75rem 2rem;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      
+      &:hover {
+        background-color: var(--global-theme-color);
+        opacity: 0.9;
+      }
+      
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px rgba(var(--global-theme-color-rgb), 0.3);
+      }
+    }
   }
 }
 
