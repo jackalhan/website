@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-reinforcement-pre-training-baking-the-cherry-into-the-cake",
+        },{id: "post-alphago-moment-for-model-architecture-discovery-the-rise-of-autonomous-ai-scientists",
+        
+          title: "AlphaGo Moment for Model Architecture Discovery ; The Rise of Autonomous AI Scientists...",
+        
+        description: "An autonomous, agentic AI system discovers novel architectures and accelerates scientific progress—breaking the human creativity bottleneck.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/alphago-moment-for-model-architecture-discovery/";
+          
+        },
+      },{id: "post-reinforcement-pre-training-baking-the-cherry-into-the-cake",
         
           title: "Reinforcement pre-training - baking the cherry into the cake",
         
