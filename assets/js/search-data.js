@@ -466,6 +466,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/tolgahan", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=OvgwYg0AAAAJ&hl", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
