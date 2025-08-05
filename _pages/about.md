@@ -11,7 +11,7 @@ profile:
   more_info: >
     <center>
     <p><i>Me at <a href='https://www.visittrinity.ie/book-of-kells-experience/'>Book of Kells Experience </a></i>  🧐</p>
-    <p><i>Dublin, Ireland</i></p>
+    <p><i>@ Dublin, Ireland</i></p>
     </center>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -34,7 +34,7 @@ I am a **lifelong learner, senior leader, and hands-on practitioner** in AI/ML a
 
 Throughout my career, I have worked with world-class teams at top-tier companies and research labs. My leadership has delivered **AI-driven solutions generating billion dollars in value** across **retail, technology, healthcare,** and **aviation**. I am dedicated to advancing our understanding of existing algorithms and inventing new ones that can power real-world solutions with meaningful social impact. I’m especially passionate about **harnessing AI to address scientific challenges and unlock new applications**.
 
-I completed my **Ph.D.** under the supervision of [Xiaowei Xu](https://scholar.google.com/citations?user=7McohLsAAAAJ&hl=en) at the **University of Arkansas**, defending my dissertation, **“Multi-Resolution Models for Learning Multilevel Abstract Representation with Application to Information Retrieval”** in 2019, with [Christian Szegedy](https://scholar.google.com/citations?user=bnQMuzgAAAAJ&hl=en) as my external advisor. My current **research interests** include, but are not limited to, **reinforcement learning, foundational models,** and **representation learning—including self-supervised learning, novel architectures, and knowledge graphs**. I have **published, presented**, and **served as a committee reviewer member** at leading conferences such as **NeurIPS, ICML, and ICLR**. My work has earned **Best Paper honors**, **contributed to patents**, and I have held leadership roles at major AI conferences and workshops. I pursued a **Chief Data & AI Officer** program as a post-Ph.D. degree at **Carnegie Mellon University**.
+I completed my **Ph.D.** under the supervision of [Xiaowei Xu](https://scholar.google.com/citations?user=7McohLsAAAAJ&hl=en) at the **University of Arkansas**, defending my dissertation, **“Multi-Resolution Models for Learning Multilevel Abstract Representation with Application to Information Retrieval”** in 2019, with [Christian Szegedy](https://scholar.google.com/citations?user=bnQMuzgAAAAJ&hl=en) as my co-advisor and supervisor. My current **research interests** include, but are not limited to, **reinforcement learning, foundational models,** and **representation learning—including self-supervised learning, novel architectures, and knowledge graphs**. I have **published, presented**, and **served as a committee reviewer member** at leading conferences such as **NeurIPS, ICML, and ICLR**. My work has earned **Best Paper honors**, **contributed to patents**, and I have held leadership roles at major AI conferences and workshops. I pursued a **Chief Data & AI Officer** program as a post-Ph.D. degree at **Carnegie Mellon University**.
 
 As a **keynote speaker** and **expert panelist**, I deliver talks that bridge the gap between AI trends and actionable business strategies. Above all, I am **passionate about pushing the boundaries of AI for positive social and business impact**. I thrive in multidisciplinary settings—building high-performing teams, guiding innovation, and translating AI research into real-world solutions. I am always open to collaboration, new challenges, and opportunities to drive the future of intelligent systems.
 
