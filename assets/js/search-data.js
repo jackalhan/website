@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-alphago-moment-for-model-architecture-discovery-the-rise-of-autonomous-ai-scientists",
+        },{id: "post-glm-4-5-a-unified-open-source-powerhouse-for-agents-reasoning-amp-coding",
+        
+          title: "GLM-4.5 ; A Unified Open-Source Powerhouse for Agents, Reasoning &amp; Coding 🤖✨",
+        
+        description: "GLM-4.5 from Zhipu AI &amp; Tsinghua unifies agents, reasoning, and coding in a massively efficient Mixture-of-Experts model—advancing open-source AI.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/glm4-5-zhipu-ai-opensource/";
+          
+        },
+      },{id: "post-alphago-moment-for-model-architecture-discovery-the-rise-of-autonomous-ai-scientists",
         
           title: "AlphaGo Moment for Model Architecture Discovery ; The Rise of Autonomous AI Scientists...",
         
