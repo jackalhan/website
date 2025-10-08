@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a **Distinguished AI Scientist & Engineer** at [Walmart](https://tech.walmart.com/content/walmart-global-tech/en_us.html) and lead the **Agentic AI / Large Models / Knowledge Base** projects. I was a **researcher** at [Google](https://research.google/) where I developed retrieval models for large knowledge bases and theorem proving. In general, my work work is in the intersection of reinforcement learning, foundation models, novel architectures, training paradigms and natural language understanding.
+I am currently a **Senior Director of Artificial Intelligence** at [Walmart](https://tech.walmart.com/content/walmart-global-tech/en_us.html) and lead the **Agentic AI / Large Models / Knowledge Base** projects as Associate Fellow capacity. I was a **researcher** at [Google](https://research.google/) where I developed retrieval models for large knowledge bases and theorem proving. In general, my work work is in the intersection of reinforcement learning, foundation models, novel architectures, training paradigms and natural language understanding.
 
 I am a **lifelong learner, senior leader, and hands-on practitioner** in AI/ML and large-scale engineering, with **~20 years of experience** driving business growth and technological innovation across both industry and academia.
 
