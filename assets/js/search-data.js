@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-glm-4-5-a-unified-open-source-powerhouse-for-agents-reasoning-amp-coding",
+        },{id: "post-tiny-recursive-model-small-simple-and-surprisingly-strong",
+        
+          title: "Tiny Recursive Model ; Small, Simple… and Surprisingly Strong 🤖🧩",
+        
+        description: "The 7M-parameter Tiny Recursive Model (TRM) outperforms larger networks on reasoning puzzles like Sudoku, Maze, and ARC-AGI through clever recursion.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/tiny-recursive-model-trm-hierarchical-reasoning.md/";
+          
+        },
+      },{id: "post-glm-4-5-a-unified-open-source-powerhouse-for-agents-reasoning-amp-coding",
         
           title: "GLM-4.5 ; A Unified Open-Source Powerhouse for Agents, Reasoning &amp; Coding 🤖✨",
         
