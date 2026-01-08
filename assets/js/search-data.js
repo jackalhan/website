@@ -447,7 +447,7 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
             },},{id: "news-attending-goglobal-türkiye-connecting-innovation-ai-and-global-vision",
-          title: 'Attending GoGlobal Türkiye ; Connecting Innovation, AI, and Global Vision 🇹🇷🌍',
+          title: 'Attending GoGlobal Türkiye ; Connecting Innovation, AI, and Global Vision',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
