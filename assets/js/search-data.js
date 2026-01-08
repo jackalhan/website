@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-tiny-recursive-model-small-simple-and-surprisingly-strong",
+        },{id: "post-communication-amp-verification-in-llm-agents-collaboration-under-information-asymmetry",
+        
+          title: "Communication &amp; Verification in LLM Agents ; Collaboration Under Information Asymmetry 🤝🧠",
+        
+        description: "New research from the University of Michigan explores how LLM agents collaborate under partial information—and why communication, verification, and trust matter as much as raw intelligence.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/communication-verification-llm-agents-collaboration/";
+          
+        },
+      },{id: "post-tiny-recursive-model-small-simple-and-surprisingly-strong",
         
           title: "Tiny Recursive Model ; Small, Simple… and Surprisingly Strong 🤖🧩",
         
@@ -38,7 +49,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/tiny-recursive-model-trm-hierarchical-reasoning.md-copy/";
+            window.location.href = "/blog/2025/tiny-recursive-model-trm-hierarchical-reasoning/";
           
         },
       },{id: "post-glm-4-5-a-unified-open-source-powerhouse-for-agents-reasoning-amp-coding",
@@ -447,7 +458,7 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
             },},{id: "news-attending-goglobal-türkiye-connecting-innovation-ai-and-global-vision",
-          title: 'Attending GoGlobal Türkiye ; Connecting Innovation, AI, and Global Vision',
+          title: 'Attending GoGlobal Türkiye ; Connecting Innovation, AI, and Global Vision 🇹🇷🌍',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
