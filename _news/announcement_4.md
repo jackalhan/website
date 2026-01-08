@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Attending GoGlobal Türkiye ; Connecting Innovation, AI, and Global Vision
+title: Attending GoGlobal Türkiye ; Connecting Innovation, AI, and Global Vision 🇹🇷🌍
 date: 2025-11-09 09:00:00-0500
 inline: false
 related_posts: false
