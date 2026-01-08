@@ -52,7 +52,7 @@ company_logos:
 # Contact information for about page
 contact_info:
   - label: "Current Position"
-    value: "Senior Director of AI @ Walmart"
+    value: "AF/Senior Director of AI @ Walmart"
     url: ""
   # - label: "Former Position"
   #   value: "Ex: Research Scientist @ Google"
