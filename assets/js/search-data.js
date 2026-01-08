@@ -38,7 +38,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/tiny-recursive-model-trm-hierarchical-reasoning.md/";
+            window.location.href = "/blog/2025/tiny-recursive-model-trm-hierarchical-reasoning.md-copy/";
           
         },
       },{id: "post-glm-4-5-a-unified-open-source-powerhouse-for-agents-reasoning-amp-coding",
@@ -446,6 +446,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
+            },},{id: "news-attending-goglobal-türkiye-connecting-innovation-ai-and-global-vision",
+          title: 'Attending GoGlobal Türkiye ; Connecting Innovation, AI, and Global Vision 🇹🇷🌍',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
