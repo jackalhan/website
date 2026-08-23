@@ -12,14 +12,17 @@ Just read an intriguing paper, **“Communication and Verification in LLM Agents
 The researchers adapted **Einstein Puzzles** into a collaborative tabletop game where two LLM agents must share partial information to solve spatial constraints—similar to two people arranging objects on a table, where each can only reach certain areas and knows different rules.
 
 ### 💡 Key findings that stood out
+
 - Agents with **both information-seeking and information-providing abilities** achieved **89% success**, compared to **65%** for agents that could only share information (tested with Llama 3.1-8B).
 - **Mismatched communication abilities** between agents led to significant performance drops.
 - **Without communication**, some models reached **94% accuracy** through pattern memorization—but failed to truly understand the underlying rules. This is a critical **safety insight**.
 
 ### ✅ Verification matters
+
 Adding an **environment-based verifier**—with **no additional training**—boosted performance by **10–40%** across models.
 
 ### 🧑‍🤝‍🧑 The human element
+
 When 12 human participants interacted with these agents, they consistently preferred **proactive communicators**, even when those agents were technically less efficient. **Trust and clarity beat raw performance.**
 
 This work reinforces something we’re increasingly seeing across AI development:  

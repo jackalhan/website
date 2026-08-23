@@ -7,7 +7,7 @@ tags: AI ASI DeepLearning LLM Research Innovation Automation ScalingLaws StateOf
 categories: research-notes
 ---
 
-The core question in this new paper  "AlphaGo Moment for Model Architecture Discovery" from researchers SJTU, SII, and GAIR. We know AI is getting exponentially better, but AI research is still bottlenecked by human creativity. So they asked: what if an AI could have its own "AlphaGo moment"; not in a game, but in the very act of designing the next generation of AI?
+The core question in this new paper "AlphaGo Moment for Model Architecture Discovery" from researchers SJTU, SII, and GAIR. We know AI is getting exponentially better, but AI research is still bottlenecked by human creativity. So they asked: what if an AI could have its own "AlphaGo moment"; not in a game, but in the very act of designing the next generation of AI?
 
 A fully autonomous AI system that conducts its own scientific research. It goes way beyond just optimizing a model (like traditional Neural Architecture Search). It actually innovates.
 
