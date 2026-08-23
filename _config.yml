@@ -7,7 +7,7 @@ first_name: Tolgahan
 middle_name:
 last_name: Cakaloglu
 contact_note: >
-  Email is the fastest ways to reach me. Checkout the <a href="/contact">Contact page</a> for more details.
+  Email is the fastest way to reach me. Check out the <a href="/contact">Contact page</a> for more details.
 
 # Company logos configuration - displays logos in the about page experience section
 # Add logo files to assets/img/company-logos/ directory
